@@ -1,0 +1,37 @@
+{
+  "name": "datlas",
+  "description": "Device Atlas Cloud API Wrapper for parsing user agent strings",
+  "version": "0.1.0",
+  "homepage": "https://github.com/vxtindia/datlas",
+  "author": {
+    "name": "Debjeet Biswas",
+    "email": "debjeet@vxtindia.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vxtindia/datlas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vxtindia/datlas/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vxtindia/datlas/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": "0.8.2"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": ["device-atlas", "api"]
+}
